@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "dd1e210c0ac797535d18b9eb8ca4ad40b4b91eda",
+    "author": "Philippe Massicotte <pmassicotte@hotmail.com>",
+    "time": "2024-02-09 19:57:56",
+    "files": 2,
+    "merge": false,
+    "message": "Increment version number to 1.0.0.9000\n"
+  },
+  "repo": "https://github.com/ropensci/rnaturalearthhires",
+  "pkg": "rnaturalearthhires"
+}

@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "e4736f636baa1c013d77d2ba028dd5bc334defee",
+    "author": "Philippe Massicotte <pmassicotte@hotmail.com>",
+    "time": "2025-07-05T11:12:56Z",
+    "files": 1,
+    "merge": false,
+    "message": "feat(ci): add manual trigger option to schedule-build workflow\n"
+  },
+  "repo": "https://github.com/ropensci/rnaturalearthhires",
+  "pkg": "rnaturalearthhires",
+  "time": "2026-08-30T07:11:47Z"
+}

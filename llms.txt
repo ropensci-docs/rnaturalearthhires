@@ -1,0 +1,50 @@
+# rnaturalearthhires
+
+An R package to store high resolution data for the
+[rnaturalearth](https://github.com/ropensci/rnaturalearth) package.
+
+Data in `rnaturalearth` packages :
+
+- [rnaturalearth](https://github.com/ropensci/rnaturalearth) : one low
+  resolution example file & data can be downloaded from NaturalEarth
+  using ne_download()
+- [rnaturalearthdata](https://github.com/ropensci/rnaturalearthdata) :
+  low (scale 110) and medium resolution (scale 50) files
+- [rnaturalearthhires](https://github.com/ropensci/rnaturalearthhires) :
+  high resolution (scale 10) files
+
+## Installation
+
+``` r
+
+remotes::install_github("ropensci/rnaturalearthhires")
+
+install.packages(
+  "rnaturalearthhires",
+  repos = "https://ropensci.r-universe.dev",
+  type = "source"
+)
+```
+
+Note `rnaturalearthhires` is unlikely to be submitted to CRAN because
+its size exceeds CRAN recommendations.
+
+# Package index
+
+## All functions
+
+- [`coastline10`](https://docs.ropensci.org/rnaturalearthhires/reference/coastlines.md)
+  : world coastlines from Natural Earth
+- [`countries10`](https://docs.ropensci.org/rnaturalearthhires/reference/countries.md)
+  : world country polygons from Natural Earth
+- [`map_units10`](https://docs.ropensci.org/rnaturalearthhires/reference/map_units.md)
+  : world map_unit polygons from Natural Earth
+- [`rnaturalearthhires-package`](https://docs.ropensci.org/rnaturalearthhires/reference/rnaturalearthhires.md)
+  [`rnaturalearthhires`](https://docs.ropensci.org/rnaturalearthhires/reference/rnaturalearthhires.md)
+  : rnaturalearthhires : high resolution world vector maps from Natural
+  Earth
+- [`sovereignty10`](https://docs.ropensci.org/rnaturalearthhires/reference/sovereignty.md)
+  : world sovereignty polygons from Natural Earth
+- [`states10`](https://docs.ropensci.org/rnaturalearthhires/reference/states.md)
+  : state (admin level 1) polygons from Natural Earth
+
